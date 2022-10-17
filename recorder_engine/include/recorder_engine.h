@@ -31,6 +31,8 @@
 extern "C" {
 #endif
 
+#include <stdbool.h>
+
 #define DEFAULT_REC_ENGINE_CONFIG() {\
     .one_frame_duration_ms      = 10,\
     .sensitivity                = 0,\

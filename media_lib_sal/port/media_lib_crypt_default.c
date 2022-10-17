@@ -25,6 +25,7 @@
 #include "esp_log.h"
 #include "mbedtls/md5.h"
 #include "mbedtls/sha256.h"
+#include "mbedtls/compat-2.x.h"
 #include "media_lib_crypt_reg.h"
 #include "media_lib_adapter.h"
 #include "media_lib_os.h"
